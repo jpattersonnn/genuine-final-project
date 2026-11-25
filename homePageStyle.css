@@ -1,0 +1,86 @@
+.sender{
+    height:300px;
+    width:300px;
+    background-color: black;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    border-radius: 10px;
+}
+.gameImage{
+    height:100px;
+    width:100px;
+}
+.linker{
+    text-decoration: none;
+    color:inherit;
+    display: flex;
+    height:100%;
+    width:100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+html {
+    background:
+    linear-gradient(rgba(0,0,0,0.10), rgba(0,0,0,0.10), rgba(0,0,0,0.10)),
+    repeating-linear-gradient(45deg,rgb(211, 32, 62),rgb(211, 32, 62) 30px,rgb(255, 221, 221) 30px,rgb(255, 221, 221) 60px);
+}
+h1 {
+    position: relative;
+    text-align: center;
+    -webkit-text-stroke: 3px;
+    -webkit-text-stroke-color: rgb(170, 19, 42);
+    color:white;
+    font-size: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: rgba(0,0,0,0.25);
+    margin:0;
+    padding: 10px 20px;
+    width:fit-content;
+    border-radius: 10px;
+    padding:10px;
+}
+p {
+    font-size: 50px;
+    -webkit-text-stroke: 2px;
+    color:white;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#titleBox {
+    justify-content: center;
+    display: flex;
+}
+h2 {
+    font-size: 75px;
+    -webkit-text-stroke: 2px;
+    color:white;
+    -webkit-text-stroke-color:  rgb(92, 11, 23);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+#navigational {
+    display: flex;
+    gap:40px;
+    justify-content: center;
+}
+#arrow {
+    position: absolute;
+    height:200px;
+    width:200px;
+    bottom:200px;
+    left:250px;
+    transform:rotate(270deg);
+}
+#smile {
+    position: absolute;
+    height:100px;
+    width:100px;
+    bottom:100px;
+    left:250px;
+}

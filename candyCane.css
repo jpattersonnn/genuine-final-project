@@ -1,0 +1,106 @@
+#board {
+    height:800px;
+    width:1400px;
+    background-color: #ffcfe5;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: flex-start;
+    align-self: center;
+    gap:20px;
+    border-radius: 50px;
+
+}
+#square30 {
+    height:175px;
+    width:175px;
+    background-color: rgb(240, 182, 25);
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#playerPiece {
+    height:50px;
+    width:50px;
+    z-index: 1000;
+    background-color: black;
+    border-radius: 100%;
+
+}
+#bot1 {
+    height:50px;
+    width:50px;
+    z-index: 1000;
+    background-color: black;
+    border-radius: 100%;
+
+}
+#bot2 {
+    height:50px;
+    width:50px;
+    z-index: 1000;
+    background-color: black;
+    border-radius: 100%;
+}
+html {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background:
+    linear-gradient(rgba(0,0,0,0.10), rgba(0,0,0,0.10), rgba(0,0,0,0.10)),
+    repeating-linear-gradient(45deg,rgb(211, 32, 62),rgb(211, 32, 62) 30px,rgb(255, 221, 221) 30px,rgb(255, 221, 221) 60px);
+}
+h1 {
+    -webkit-text-stroke: 3px;
+    -webkit-text-stroke-color: rgb(170, 19, 42);
+    color:white;
+    font-size: 100px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: rgba(0,0,0,0.25);
+    margin:0 auto;
+    padding: (10px, 20px);
+    width:fit-content;
+    border-radius: 10px;
+    padding:10px;
+}
+#controls{
+    width: fit-content;
+    background-color: rgb(255, 255, 255);
+}
+.Navigation {
+    position: absolute;
+    top:50px;
+    left:50px;
+    background-color: black;
+    color:white;
+    height:100px;
+    width:100px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: wheat;
+    border-style: solid;
+}
+#resetImage {
+    height:100px;
+    width:100px;
+    background-color: antiquewhite;
+    position: absolute;
+    top:175px;
+    left:50px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+}
+.homeButton{
+    text-decoration: none;
+    color:inherit;
+    display: flex;
+    height:100%;
+    width:100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
